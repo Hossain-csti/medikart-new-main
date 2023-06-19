@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* 
+font-family: 'Hind Siliguri', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; 
+*/
+
+:root {
+    --success: #1BBC9B;
+    --success-dark: #169C81;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* navber-section */
+.btn-outline-success {
+    color: var(--success);
+    font-size: small;
+    border-color: var(--success);
+}
+
+.btn-outline-success:hover {
+    background-color: var(--success);
+    border-color: var(--success);
+}
+
+.dropdown-cog button {
+    color: var(--success);
+}
+
+.dropdown-cog button:hover {
+    background-color: var(--success);
+    color: white;
+}
+
+.dropdown-cog i {
+    font-size: 20px;
+}
+
+.nav-item a {
+    font-size: 15px;
+    margin: 0.6vw;
+}
+
+/* navber-section */
+
+/* home-banner */
+.home-banner {
+    background-image: url("../images/sliders/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner__title {
+    min-height: 50vh;
+    margin-top: 7em;
+}
+
+.btn-success {
+    background-color: var(--success);
+    color: white;
+    border-color: var(--success);
+    height: 50px;
+    width: 120px;
+
+}
+
+.btn-success:hover {
+    background-color: var(--success-dark);
+    color: white;
+    border-color: var(--success-dark);
+
+}
+
+/* About Medifab */
+.line {
+    border-bottom: 2px solid var(--success);
+    width: 70px;
+    margin: auto;
+}
+
+.section-header h3 {
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.heading {
+    max-width: 68%;
+    margin: 0px auto;
+}
+
+.book__an__appointment p {
+    font-size: 15px;
+}
+
+/* About Medifab */
+
+/* meet-our-doctors */
+.owl-carousel .item img {
+    height: 100px;
+    width: 100px;
+}
+
+.owl-nav .owl-prev span {
+    color: var(--success);
+    position: absolute;
+    font-size: 64px;
+    width: 42px;
+    height: 42px;
+    top: 14%;
+    left: -5%;
+
+}
+
+.owl-nav .owl-next span {
+    color: var(--success);
+    position: absolute;
+    font-size: 64px;
+    width: 40px;
+    height: 100px;
+    top: 14%;
+    right: -5%;
+}
+
+.owl-carousel .item .doctor_name {
+    font-size: 16px;
+    color: #2c2b2b;
+    font-weight: 500;
+}
+
+.owl-carousel .item .doctor_name:hover {
+    color: var(--success) !important;
+}
+
+
+.see__all_btn {
+    font-size: 19px;
+    height: 44px;
+    width: 187px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+    color: #777;
+}
+
+.see__all_btn:hover {
+    background-color: var(--success-dark);
+    color: white;
+
+}
+
+/* meet-our-doctors */
+
+/* Departments */
+.dept-img {
+    border: 1px solid #dedcdc;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+.dept-img img {
+    margin-top: 26px;
+    width: 40%;
+}
+
+.dept-box p {
+    font-size: 15px;
+}
+
+.dept-name {
+    font-size: 16px;
+    color: #2c2b2b;
+    font-weight: 500;
+}
+
+.dept-name:hover {
+    color: var(--success) !important;
+}
+
+/* Departments */
+
+
+/* Testimonials */
+.estimonial__text p {
+    font-size: 15px;
+}
+
+/* Testimonials */
+
+/* footer */
+.sitemap-item {
+    margin-left: -24px;
+    line-height: 0px;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-item a {
+    color: #777;
+    font-size: 14px;
+}
+
+.nav-item a:hover {
+    color: var(--success);
+}
+
+.blog-item {
+    margin-left: -24px;
+    line-height: 0px;
+}
+
+.appoint-description {
+    font-size: 13px;
+}
+
+.appointment-icon {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.appointment-icon a {
+    margin: 0.5vw;
+    border: 1px solid #e7e7e7;
+    color: #666;
+    font-size: 22px;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+}
+.appointment-icon a:hover{
+    border-color: var(--success);
+    color: var(--success);
+}
+/* footer */
