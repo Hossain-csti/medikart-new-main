@@ -200,6 +200,43 @@ a {
 
 /* Testimonials */
 
+/* =================== */
+/* about page */
+.about__img img{
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 100%;
+}
+
+/* =================== */
+/* about page */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* footer */
 .sitemap-item {
     margin-left: -24px;
