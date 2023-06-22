@@ -70,6 +70,7 @@ a {
     background-color: var(--success);
     color: white;
     border-color: var(--success);
+    line-height: 35px;
     height: 50px;
     width: 120px;
 
@@ -134,11 +135,13 @@ a {
     font-weight: 500;
 }
 
+.owl-carousel .owl-item img {
+    display: block;
+    width: 30%;
+}
 
 .see__all_btn {
     font-size: 19px;
-    height: 44px;
-    width: 187px;
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
@@ -287,9 +290,80 @@ doctor__profile */
     display: inline-block;
     padding: 5px 10px;
 }
+
 /* doctor__page */
 
+/* ===============
+department-dentists */
+.service-image {
+    overflow: hidden;
+}
 
+.service-image img {
+    width: 100%;
+    height: 150%;
+    transition: 0.7s ease;
+}
+
+.service-image img:hover {
+    transform: scale(1.2);
+}
+
+.list-square li {
+    line-height: 24px;
+    list-style: none;
+    margin: 10px 0 0 20px;
+    position: relative;
+
+}
+
+.contact-wrap p {
+    font-size: 13px;
+}
+
+.contact-phone a {
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.contact-phone a:hover {
+    color: var(--success);
+}
+
+.contact-phone i {
+    color: var(--success);
+    font-size: 20px;
+}
+
+.working-hours li {
+    font-size: 13px;
+    list-style: none;
+}
+
+.working-hours ul {
+    padding-left: 0px;
+}
+
+.working-hours ul li {
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.working-hours ul li > b{
+    color: #999;
+    float: right;
+    font-size: 14px;
+    font-weight: normal;
+}
+.working-hours ul li>span {
+    float: left;
+    font-size: 15px;
+}
+
+/* ===============
+department-dentists */
 
 
 
